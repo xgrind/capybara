@@ -1,5 +1,5 @@
-describe 'Meu primeiro script' do
+describe 'Meu primeiro script', :xubuntu do
     it 'visitar uma página' do
-        visit 'xubuntu.org'
+        visit 'https://xubuntu.org/'
     end
 end
